@@ -1,0 +1,65 @@
+/*Nokia 7210 SAS-M/Alcatel 7210 SAS-M Nodes to Nokia 7210 SAS-M Device */
+
+
+
+update Nodes
+
+set TypeId='26000000014983'
+
+where TypeId='26000000019582'
+
+
+
+
+
+/*Nokia 7210 SAS-T/Alcatel 7210 SAS-T Nodes to Nokia 7210 SAS-T Device */
+
+update Nodes
+
+set TypeId='26000000019603'
+
+where TypeId='26000000019585' OR TypeId='26000000019386' OR TypeId='26000000014983'
+
+
+
+/*Nokia 7210 SAS-S 48F/Alcatel 7210 SAS-S 48F Nodes to Nokia 7210 SAS-S 48F Device */
+
+update Nodes
+
+set TypeId='26000000019608'
+
+where TypeId='26000000019385' or TypeId='26000000019584'
+
+
+
+/*Nokia 7705 SAR-M/Alcatel 7705 SAR-M Nodes to Nokia 7705 SAR-M Device */
+
+update Nodes
+
+set TypeId='26000000019609'
+
+where TypeId='26000000019388'
+
+
+
+/*Nokia 7705 SAR-8/Alcatel 7705 SAR-8 Nodes to Nokia 7705 SAR-8 Device */
+
+
+
+update Nodes
+
+set TypeId='26000000019610'
+
+where TypeId='26000000019387'
+
+
+
+
+
+/*Nokia 7705 SR-7/Alcatel 7705 SR-7 Nodes to Nokia 7705 SR-7 Device */
+
+update Nodes
+
+set TypeId='26000000007875'
+
+where TypeId='26000000019389' or TypeId='26000000019390'
